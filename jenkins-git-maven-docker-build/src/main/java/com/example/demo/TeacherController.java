@@ -28,5 +28,5 @@ public class TeacherController {
 	@GetMapping(path ="/message")
 	public String getMessage() {
 		return "message";
-}
+}    
 }
