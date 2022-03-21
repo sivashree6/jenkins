@@ -25,4 +25,8 @@ public class TeacherController {
 		return list.toString();    
 		
 	}
+	@GetMapping(path ="/message")
+	public String getMessage() {
+		return "message";
+}
 }
