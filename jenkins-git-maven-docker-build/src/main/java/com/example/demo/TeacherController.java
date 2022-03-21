@@ -15,7 +15,7 @@ public class TeacherController {
 		List<String> list =Arrays.asList("ram","sam","stella");
 		return list.toString();
 	}
-	@GetMapping(path ="/teachers/{dept}")
+	@GetMapping(path ="/teachers/{dept}")    
 	public String getTeachersByDept(@PathVariable("dept") String dept) {
 		
 		List<String> list = Arrays.asList("ram","sam","stella");
